@@ -1,5 +1,6 @@
 # Data files
 *.csv
+*.xlsx
 
 # Generated artifacts
 artifacts/
@@ -13,4 +14,32 @@ artifacts/
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Testing & coverage
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Secrets / environment
+.env
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
