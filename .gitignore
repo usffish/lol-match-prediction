@@ -1,0 +1,17 @@
+# Data files (too large for git)
+*.xlsx
+*.csv
+
+# Generated artifacts
+artifacts/
+
+# Kiro IDE config
+.kiro/
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
